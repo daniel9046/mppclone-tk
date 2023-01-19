@@ -1,8 +1,8 @@
 # mppclone-tk-server
-MPPCLONE.TK prooject - put community's suggestions to "mppclone.tk", it's a preview of the mppclone with community suggestions
+MPPCLONE.TK project - Community's Suggestions Realized in a Different Server
 
 ## To do
-- Remake mppclone in this server
+- Remake mppclone's server in this server
 - Clear chat with crown
 - DM Muting feature(first do dms)
 - Implement more status messages
