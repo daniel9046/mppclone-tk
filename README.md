@@ -10,5 +10,5 @@ MPPCLONE.TK prooject - put community's suggestions to "mppclone.tk", it's a prev
 - Display and fully implement MOTDs (client)
 - Bring MPP-Hats to MPP as official
 - Friends on MPP
-- Room tags
+- Room tags = DOING RN
 - Reply function
