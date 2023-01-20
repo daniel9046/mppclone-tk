@@ -1,1 +1,380 @@
-{} //db
+{
+  "7de91a521290c2de98e0fa17574e6933": {
+    "color": "#e28c37",
+    "name": "Anonymous",
+    "_id": "7de91a521290c2de98e0fa17574e6933",
+    "token": "7de91a521290c2de98e0fa17574e6933.1c0dcfaf-e9cc-47a3-82b6-9d14fa428503",
+    "permissions": {},
+    "vanished": false,
+    "rank": "member",
+    "ip": "71.168.136.48"
+  },
+  "50584c92df2fe28f86a458b3a8e68545": {
+    "color": "#269a22",
+    "name": "Anonymous",
+    "_id": "50584c92df2fe28f86a458b3a8e68545",
+    "token": "50584c92df2fe28f86a458b3a8e68545.c91d4ada-1331-4c93-a1df-dd351437c9e7",
+    "permissions": {},
+    "vanished": false,
+    "rank": "member",
+    "ip": "2a02:8c8:c10:30::17"
+  },
+  "441486df01b4172b5b3b3d9ffd3900ff": {
+    "color": "#4343aa",
+    "name": "Anonymous",
+    "_id": "441486df01b4172b5b3b3d9ffd3900ff",
+    "token": "441486df01b4172b5b3b3d9ffd3900ff.0bd0186d-c514-4132-9ac9-fe12c68fc377",
+    "permissions": {},
+    "vanished": false,
+    "rank": "member",
+    "ip": "2001:ac8:21:e::12"
+  },
+  "653dcc6b18b84731528f66783b94be7e": {
+    "color": "#e41121",
+    "name": "Anonymous",
+    "_id": "653dcc6b18b84731528f66783b94be7e",
+    "token": "653dcc6b18b84731528f66783b94be7e.cb54a124-764e-4b81-a37d-be5462075176",
+    "permissions": {},
+    "vanished": false,
+    "rank": "member",
+    "ip": "34.254.53.125"
+  },
+  "9d7d3faa0a3bfd77d2d113814e3f69c6": {
+    "color": "#506899",
+    "name": "Anonymous",
+    "_id": "9d7d3faa0a3bfd77d2d113814e3f69c6",
+    "token": "9d7d3faa0a3bfd77d2d113814e3f69c6.4f08c93b-0c9c-4493-b15b-87d0073e65c0",
+    "permissions": {},
+    "vanished": false,
+    "rank": "member",
+    "ip": "52.250.30.131"
+  },
+  "c3e586fe5fd2174041116c8d266b41a5": {
+    "color": "#61b384",
+    "name": "test test test",
+    "_id": "c3e586fe5fd2174041116c8d266b41a5",
+    "token": "c3e586fe5fd2174041116c8d266b41a5.726ecde0-1b49-43dd-be59-f52128ce9192",
+    "permissions": {},
+    "vanished": false,
+    "rank": "member",
+    "ip": "77.111.245.11"
+  },
+  "2ab79bc483e31a66771ab50e7f5cd425": {
+    "color": "#bdfffe",
+    "name": "sigma 🗿🍷",
+    "_id": "2ab79bc483e31a66771ab50e7f5cd425",
+    "token": "2ab79bc483e31a66771ab50e7f5cd425.4342d7a6-88a5-4866-b3cb-f79de4b44c8a",
+    "permissions": {},
+    "vanished": false,
+    "rank": "member",
+    "ip": "2800:2141:3000:52:a597:fa6c:4162:4238"
+  },
+  "ecd10b843ef4f6df4d430d681caa6701": {
+    "color": "#700505",
+    "name": "🔪🩸𝕺𝖇𝖘𝖈𝖚𝖗𝖎𝖙𝖊💉💀͏",
+    "_id": "ecd10b843ef4f6df4d430d681caa6701",
+    "token": "ecd10b843ef4f6df4d430d681caa6701.44b2e96d-012e-4582-ab93-e4691796e484",
+    "permissions": {},
+    "vanished": false,
+    "rank": "member",
+    "ip": "2001:4c4e:214b:ed00:ac95:c969:3fcd:cd78",
+    "tag": {
+      "text": "Omniverse Destroyer",
+      "color": "#000000"
+    }
+  },
+  "0a8b5cfb1be89bb6ad34aa9e6d9d9c9a": {
+    "color": "#8d3f50",
+    "name": "dan9046",
+    "_id": "0a8b5cfb1be89bb6ad34aa9e6d9d9c9a",
+    "token": "0a8b5cfb1be89bb6ad34aa9e6d9d9c9a.90065938-c66e-44cc-8b61-8c457753ff5a",
+    "permissions": {},
+    "vanished": false,
+    "tag": "OWNER",
+    "rank": "admin",
+    "ip": "2804:7f1:e888:ff0d:d020:4ff5:e988:c86c"
+  },
+  "1b1d4dd0cd30c5130107a995cb0c5675": {
+    "color": "#1b569f",
+    "name": "Anonymous",
+    "_id": "1b1d4dd0cd30c5130107a995cb0c5675",
+    "token": "1b1d4dd0cd30c5130107a995cb0c5675.59efa7ea-7e0f-4a1a-a54b-8be641de75fd",
+    "permissions": {},
+    "vanished": false,
+    "rank": "member",
+    "ip": "181.229.155.98"
+  },
+  "a8e1a0060e381e785687c4aa87337a08": {
+    "color": "#777",
+    "name": "",
+    "_id": "a8e1a0060e381e785687c4aa87337a08",
+    "token": "a8e1a0060e381e785687c4aa87337a08.dd41c1bf-5c1d-4185-aad4-6802f3a61fc7",
+    "permissions": {},
+    "tag": {
+      "text": "Rawr :3",
+      "color": "#7777ff"
+    },
+    "vanished": false,
+    "rank": "member",
+    "ip": "2600:1700:9810:c7f0:5975:f187:b114:1dd4"
+  },
+  "383ddfc7a106f456efa7d8156feac4ab": {
+    "color": "#f6a27e",
+    "name": "S18E18",
+    "_id": "383ddfc7a106f456efa7d8156feac4ab",
+    "token": "383ddfc7a106f456efa7d8156feac4ab.a8c9f37a-8cc0-456b-bb4b-8c903e6d14da",
+    "permissions": {},
+    "vanished": false,
+    "rank": "member",
+    "ip": "156.146.59.46"
+  },
+  "256f5131af0ebaf250efc64ede510e37": {
+    "color": "#b7d168",
+    "name": "dan9046",
+    "_id": "256f5131af0ebaf250efc64ede510e37",
+    "token": "256f5131af0ebaf250efc64ede510e37.9a4cbbb7-8e5c-42e3-b9b8-ded33d64b50d",
+    "permissions": {},
+    "vanished": false,
+    "rank": "admin",
+    "ip": "2804:7f1:e888:ff0d:98:e6e8:cf78:2fd0"
+  },
+  "97e829d8c9a0340f2c0dee953971b125": {
+    "color": "#5d1fdb",
+    "name": "Anonymous",
+    "_id": "97e829d8c9a0340f2c0dee953971b125",
+    "token": "97e829d8c9a0340f2c0dee953971b125.c0000cfe-d782-4d2d-b27a-f34282e73098",
+    "permissions": {},
+    "vanished": false,
+    "rank": "member",
+    "ip": "201.75.113.221"
+  },
+  "449df18de54f1304aa4cf24a951e8b91": {
+    "color": "#38e6c4",
+    "name": "Anonymous",
+    "_id": "449df18de54f1304aa4cf24a951e8b91",
+    "token": "449df18de54f1304aa4cf24a951e8b91.21b421eb-bc55-4eee-bb25-9568bc62e9f2",
+    "permissions": {},
+    "vanished": false,
+    "rank": "member",
+    "ip": "178.218.144.99"
+  },
+  "ed0feda744cbbccd0a4db5019ce3fed1": {
+    "color": "#c38c24",
+    "name": "Anonymous",
+    "_id": "ed0feda744cbbccd0a4db5019ce3fed1",
+    "token": "ed0feda744cbbccd0a4db5019ce3fed1.7f5d0d4b-165a-4edf-bbe3-72f7ce9013ea",
+    "permissions": {},
+    "vanished": false,
+    "rank": "member",
+    "ip": "94.230.208.147"
+  },
+  "e5c47ba74000db5c96db59efbb25d8f4": {
+    "color": "#da67af",
+    "name": "Anonymous",
+    "_id": "e5c47ba74000db5c96db59efbb25d8f4",
+    "token": "e5c47ba74000db5c96db59efbb25d8f4.56f6c9dc-754b-4cf3-b34c-8235c1858e5f",
+    "permissions": {},
+    "vanished": false,
+    "rank": "admin",
+    "ip": "187.58.101.145"
+  },
+  "b027c5230858e9c76bdba42d306e3d9b": {
+    "color": "#e87bce",
+    "name": "DJDan",
+    "_id": "b027c5230858e9c76bdba42d306e3d9b",
+    "token": "b027c5230858e9c76bdba42d306e3d9b.05ef425b-8eb2-49bc-8277-2e4b4eeb429a",
+    "permissions": {},
+    "vanished": false,
+    "rank": "member",
+    "ip": "156.146.59.17"
+  },
+  "12db7af969d2509ab5bd15a5a4bc49ce": {
+    "color": "#0b1138",
+    "name": "a",
+    "_id": "12db7af969d2509ab5bd15a5a4bc49ce",
+    "token": "12db7af969d2509ab5bd15a5a4bc49ce.77344c59-7a77-4712-a33f-9d21ecd17152",
+    "permissions": {},
+    "vanished": false,
+    "rank": "admin",
+    "ip": "2804:7f1:e889:1bf2:ec0f:7d91:3cf5:41c7",
+    "tag": {
+      "text": "test",
+      "color": "#000000"
+    }
+  },
+  "62f891b15e19767980c1e40501a67186": {
+    "color": "#47186d",
+    "name": "Toriel",
+    "_id": "62f891b15e19767980c1e40501a67186",
+    "token": "62f891b15e19767980c1e40501a67186.6946d6f3-0c74-49fb-a57d-7f16029ee772",
+    "permissions": {},
+    "vanished": false,
+    "rank": "member",
+    "ip": "2602:47:d6f8:6e01:649e:a609:ec5:711f"
+  },
+  "86f3a8fe76224c9b4c6917dfb40c9322": {
+    "color": "#ff3838",
+    "name": "Francis Marco Derekson",
+    "_id": "86f3a8fe76224c9b4c6917dfb40c9322",
+    "token": "86f3a8fe76224c9b4c6917dfb40c9322.1b6438c3-20fe-4e74-801d-eebb86f53e26",
+    "permissions": {},
+    "vanished": false,
+    "rank": "member",
+    "ip": "2603:6080:8001:2900:491e:bcd1:e2ec:f3d5"
+  },
+  "25a088a19ee4f19f6e5f8abed15abf4d": {
+    "color": "#25c42e",
+    "name": "MNI",
+    "_id": "25a088a19ee4f19f6e5f8abed15abf4d",
+    "token": "25a088a19ee4f19f6e5f8abed15abf4d.2b54e86d-cbe1-4efd-8303-e019ce6d50ac",
+    "permissions": {},
+    "vanished": false,
+    "rank": "member",
+    "ip": "89.187.162.103",
+    "tag": {
+      "text": "Meropean Government",
+      "color": "#000000"
+    }
+  },
+  "64cbaea78e5ea025b6239c2226f3d836": {
+    "color": "#6fa1cd",
+    "name": "Anonymous",
+    "_id": "64cbaea78e5ea025b6239c2226f3d836",
+    "token": "64cbaea78e5ea025b6239c2226f3d836.042a3e35-5d58-4d4b-bb51-039f73d5ecb2",
+    "permissions": {},
+    "vanished": false,
+    "rank": "member",
+    "ip": "193.37.33.159"
+  },
+  "402ad28b41c78cc1e0cb3335891a250b": {
+    "color": "#803cff",
+    "name": "Anonymous",
+    "_id": "402ad28b41c78cc1e0cb3335891a250b",
+    "token": "402ad28b41c78cc1e0cb3335891a250b.e87277e4-cb5f-48dc-90d3-03ac5999d394",
+    "permissions": {},
+    "vanished": false,
+    "rank": "member",
+    "ip": "78.92.108.53"
+  },
+  "bc66eed77f359b9e987cac15787bf019": {
+    "color": "#000000",
+    "name": "Someone8448",
+    "_id": "bc66eed77f359b9e987cac15787bf019",
+    "token": "bc66eed77f359b9e987cac15787bf019.6dbcf93b-c08a-408a-bb79-b3ccdd365fa4",
+    "permissions": {},
+    "vanished": false,
+    "rank": "member",
+    "ip": "2a06:8640:671::2"
+  },
+  "5dede0568d770205c480120efad346d8": {
+    "color": "#8de8ac",
+    "name": "Anonymous",
+    "_id": "5dede0568d770205c480120efad346d8",
+    "token": "5dede0568d770205c480120efad346d8.3103ca97-4edd-4ac1-a966-15e22b27673a",
+    "permissions": {},
+    "vanished": false,
+    "rank": "member",
+    "ip": "54.184.44.91"
+  },
+  "38fad93234e8b388a36ffcf5b3c07c1f": {
+    "color": "#fa4186",
+    "name": "Denial9046",
+    "_id": "38fad93234e8b388a36ffcf5b3c07c1f",
+    "token": "38fad93234e8b388a36ffcf5b3c07c1f.ea497c95-9f2d-4875-bf76-cb2b05a354af",
+    "permissions": {},
+    "vanished": false,
+    "rank": "admin",
+    "ip": "2804:7f1:e889:1bf2:f591:8e8a:2e55:856c"
+  },
+  "18542c1b862b8b00ee99e76740054d2a": {
+    "color": "#9e9fb3",
+    "name": "Anonymous",
+    "_id": "18542c1b862b8b00ee99e76740054d2a",
+    "tag": "ADMIN",
+    "token": "18542c1b862b8b00ee99e76740054d2a.52946a10-65fc-46ba-a11d-e2f2cbb2062d",
+    "permissions": {},
+    "vanished": true,
+    "rank": "admin",
+    "ip": "2601:584:c480:c980:7c71:fbf7:2f60:4c93"
+  },
+  "0ec2038c20b91d172c65b4366310ff39": {
+    "color": "#377e47",
+    "name": "Anonymous",
+    "_id": "0ec2038c20b91d172c65b4366310ff39",
+    "token": "0ec2038c20b91d172c65b4366310ff39.1f4c66cb-960b-4aca-91f7-63adea0155e0",
+    "permissions": {},
+    "vanished": false,
+    "rank": "member",
+    "ip": "23.152.225.8"
+  },
+  "4779997423445d5aab72a40d06f9c36f": {
+    "color": "#c46eda",
+    "name": "Anonymous",
+    "_id": "4779997423445d5aab72a40d06f9c36f",
+    "token": "4779997423445d5aab72a40d06f9c36f.8abddd70-042d-4ad6-86de-df177fecaccc",
+    "permissions": {},
+    "vanished": false,
+    "rank": "member",
+    "ip": "185.220.102.240"
+  },
+  "1f944e04fd9f83ed2742290e7629f735": {
+    "color": "#dfce62",
+    "name": "Anonymous",
+    "_id": "1f944e04fd9f83ed2742290e7629f735",
+    "token": "1f944e04fd9f83ed2742290e7629f735.e15fccc5-0940-4fc1-87db-87409c16c591",
+    "permissions": {},
+    "vanished": false,
+    "rank": "member",
+    "ip": "158.140.193.66"
+  },
+  "9289e8f596d0a8eaf638e681fe424978": {
+    "color": "#ac175a",
+    "name": "Anonymous",
+    "_id": "9289e8f596d0a8eaf638e681fe424978",
+    "token": "9289e8f596d0a8eaf638e681fe424978.727c0936-9f23-46a2-a6a0-cd448ab5d0d0",
+    "permissions": {},
+    "vanished": false,
+    "rank": "member",
+    "ip": "104.192.1.138"
+  },
+  "383c6df2ef7c437770f00655e9abb2b5": {
+    "color": "#0ea9bc",
+    "name": "Anonymous",
+    "_id": "383c6df2ef7c437770f00655e9abb2b5",
+    "token": "383c6df2ef7c437770f00655e9abb2b5.7275a9fb-6b73-4be6-aa7f-5be83dd25344",
+    "permissions": {},
+    "vanished": false,
+    "rank": "member",
+    "ip": "3.226.198.37"
+  },
+  "5e3ba55549b587872360adcbd0b6c46c": {
+    "color": "#9e9e9e",
+    "name": "dansus9046",
+    "_id": "5e3ba55549b587872360adcbd0b6c46c",
+    "token": "5e3ba55549b587872360adcbd0b6c46c.bccc9ee1-2296-40a7-95f2-ee8b461676d0",
+    "permissions": {},
+    "vanished": true,
+    "rank": "admin",
+    "ip": "2804:7f1:e889:1bf2:1d4b:cc2e:b0c7:201"
+  },
+  "e54c57b88197d4fdfd1595959f713c79": {
+    "color": "#ffa200",
+    "name": "Not Bouncer [Helpme]",
+    "_id": "e54c57b88197d4fdfd1595959f713c79",
+    "token": "e54c57b88197d4fdfd1595959f713c79.9ed794ea-8c9b-4ee0-927a-48b882642459",
+    "permissions": {},
+    "vanished": false,
+    "rank": "member",
+    "ip": "140.228.218.209"
+  },
+  "2c263d7bea4220b5e6c73d87166aa0ac": {
+    "color": "#193692",
+    "name": "Anonymous",
+    "_id": "2c263d7bea4220b5e6c73d87166aa0ac",
+    "token": "2c263d7bea4220b5e6c73d87166aa0ac.b749921d-4abf-4c32-b552-11b888447fa0",
+    "permissions": {},
+    "vanished": false,
+    "rank": "member",
+    "ip": "2600:4040:e02d:4400:cdda:f0fb:621d:4dbf"
+  }
+}
