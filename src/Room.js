@@ -35,7 +35,7 @@ class Room extends EventEmitter {
             cl.user.id = participantId;
             cl.participantId = participantId;
             cl.initParticipantQuotas();
-            if (((this.connections.length == 0 && Array.from(this.ppl.values()).length == 0) && !this.isLobby(this._id)) || this.crown && (this.crown.userId == cl.user._id)) { //user that created the room, give them the crown.
+            if (!this.isLobby(this._id)) { //user that created the room, give them the crown.
                 //cl.quotas.a.setParams(Quota.PARAMS_A_CROWNED);
                 this.crown = {
                     participantId: cl.participantId,
@@ -51,10 +51,10 @@ class Room extends EventEmitter {
                     }
                 }
                 this.crowndropped = false;
-                this.settings = {visible:true,color:this.server.defaultRoomColor,chat:true,crownsolo:false};
+                this.settings = {visible:true,color:this.server.defaultRoomColor,chat:true,crownsolo:false,tag:""};
             } else {
                 //cl.quotas.a.setParams(Quota.PARAMS_A_NORMAL);
-                this.settings = {visible:true,color:this.server.defaultRoomColor,chat:true,crownsolo:false,lobby:true};
+                this.settings = {visible:true,color:this.server.defaultRoomColor,chat:true,crownsolo:false,lobby:true,tag:"lobby"};
             }
             this.ppl.set(participantId, cl);
 
@@ -128,13 +128,6 @@ class Room extends EventEmitter {
         options.tag ? p.user.tag = options.tag : {};
         options.vanished ? p.user.vanished = options.vanished : {};
         options.color ? p.user.color = options.color : {};
-        this.connections.filter((ofo) => ofo.participantId == p.participantId).forEach((usr) => {
-            options.name ? p.user.name = options.name : {};
-            options._id ? p.user._id = options._id : {};
-            options.tag ? p.user.tag = options.tag : {};
-            options.vanished ? p.user.vanished = options.vanished : {};
-            options.color ? p.user.color = options.color : {};
-        })
         this.sendArray([{
             color: p.user.color,
             id: p.participantId,
@@ -425,11 +418,11 @@ class Room extends EventEmitter {
         })
     }
     verifySet(_id,msg){
-        if(!isObj(msg.set)) msg.set = {visible:true,color:this.server.defaultRoomColor,chat:true,crownsolo:false};
+        if(!isObj(msg.set)) msg.set = {visible:true,color:this.server.defaultRoomColor,chat:true,crownsolo:false,tag:""};
         if(isBool(msg.set.lobby)){
             if(!this.isLobby(_id)) delete msg.set.lobby; // keep it nice and clean
         }else{
-            if(this.isLobby(_id)) msg.set = {visible:true,color:this.server.defaultLobbyColor,color2:this.server.defaultLobbyColor2,chat:true,crownsolo:false,lobby:true};
+            if(this.isLobby(_id)) msg.set = {visible:true,color:this.server.defaultLobbyColor,color2:this.server.defaultLobbyColor2,chat:true,crownsolo:false,lobby:true,tag:"lobby"};
         }
         if(!isBool(msg.set.visible)){
             if(msg.set.visible == undefined) msg.set.visible = (!isObj(this.settings) ? true : this.settings.visible);
@@ -452,6 +445,15 @@ class Room extends EventEmitter {
                 } else {
                     delete msg.set.color2;
                 }
+            }
+        };
+        if(isString(msg.set.tag)){
+            // if(msg.set.tag !== "DEV" || msg.set.tag !== "RP" || msg.set.tag !== "HANG")
+            if(this.settings){
+                if(this.settings.tag) msg.set.tag = this.settings.tag;
+                else delete msg.set.tag; // keep it nice and clean
+            } else {
+                delete msg.set.tag;
             }
         };
         return msg.set;
