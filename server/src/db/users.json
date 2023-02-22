@@ -389,12 +389,22 @@
   },
   "b03973b4081e57b2548ecf2510ffa211": {
     "color": "#808080",
-    "name": " ",
+    "name": "",
     "_id": "b03973b4081e57b2548ecf2510ffa211",
     "token": "b03973b4081e57b2548ecf2510ffa211.1a6d1d5c-605c-481d-a05a-924bfea5ee70",
     "permissions": {},
     "vanished": false,
     "rank": "member",
     "ip": "86.61.208.150"
+  },
+  "4ce1d0516e4a4fb139f718eb9788edc8": {
+    "color": "#870d8d",
+    "name": "Anonymous",
+    "_id": "4ce1d0516e4a4fb139f718eb9788edc8",
+    "token": "4ce1d0516e4a4fb139f718eb9788edc8.a7ac274f-4d84-4823-9553-d7e039c02f9f",
+    "permissions": {},
+    "vanished": false,
+    "rank": "member",
+    "ip": "98.215.134.33"
   }
 }

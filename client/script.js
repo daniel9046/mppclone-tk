@@ -1422,7 +1422,7 @@ $(function () {
           title: 'Welcome to MPPClone.tk',
           html: msg.motd,
           target: '#piano',
-          duration: 1500
+          duration: -1
         });
       }
       if (gClient.user.rank == "admin") {

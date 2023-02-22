@@ -14,7 +14,8 @@ class Room extends EventEmitter {
         this.settings = this.verifySet(this._id, {
             set: settings
         });
-        this.chatmsgsfile = __dirname+"/roomschat/"+this._id+".json"
+        this.filtered_roomid = this._id.replaceAll("/","%2F")
+        this.chatmsgsfile = __dirname+"/roomschat/"+this.filtered_roomid+".json"
         if (!fs.existsSync(this.chatmsgsfile)) {
             fs.writeFileSync(this.chatmsgsfile, "[]", function(err){if (err)console.log(err);})
         }

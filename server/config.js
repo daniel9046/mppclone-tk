@@ -1,6 +1,6 @@
 module.exports = Object.seal({
     port: "9988",
-    motd: "You agree to read this message.",
+    motd: "idk what to put on motd lmao",
     _id_PrivateKey: "boppity",
     defaultUsername: "Anonymous",
     defaultRoomColor: "#3b5054",
