@@ -2,17 +2,24 @@ const Client = require("./Client.js");
 const banned = require('../banned.json');
 const HttpsServer = require("https")
 const fs = require('fs')
+var path = require("path")
+const express = require('express')
+const app = express()
+app.use(express.static(path.join(__dirname, '..', '..', 'client')));
+var options = {
+    cert:fs.readFileSync('fullchain.pem'),
+    key:fs.readFileSync('privkey.pem')
+}
 
 class Server extends EventEmitter {
     constructor(config) {
         super();
         EventEmitter.call(this);
-        this.HttpsSSL = HttpsServer.createServer({
-            cert:fs.readFileSync('/etc/letsencrypt/live/mppclone.tk/fullchain.pem'),
-            key:fs.readFileSync('/etc/letsencrypt/live/mppclone.tk/privkey.pem')
-        })
+        this.server = HttpsServer.createServer(
+            // options,
+        app).listen(config.port)
         this.wss = new WebSocket.Server({
-            server: this.HttpsSSL,
+            server: this.server,
             backlog: 100,
             verifyClient: (info) => {
                 if (banned.includes((info.req.connection.remoteAddress).replace("::ffff:", ""))) return false;
@@ -34,7 +41,6 @@ class Server extends EventEmitter {
         this.defaultLobbyColor = config.defaultLobbyColor || "#19b4b9";
         this.defaultLobbyColor2 = config.defaultLobbyColor2 || "#801014";
         this.adminpass = config.adminpass || "Bop It";
-        this.HttpsSSL.listen(2083)
     };
     updateRoom(data) {
         if (!data.ch.settings.visible) return;
