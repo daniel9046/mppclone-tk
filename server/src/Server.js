@@ -1,21 +1,21 @@
 const Client = require("./Client.js");
 const banned = require('../banned.json');
-const HttpsServer = require("https")
+const http = require("http")
 const fs = require('fs')
 var path = require("path")
 const express = require('express')
 const app = express()
 app.use(express.static(path.join(__dirname, '..', '..', 'client')));
-var options = {
-    cert:fs.readFileSync('fullchain.pem'),
-    key:fs.readFileSync('privkey.pem')
-}
+// var options = {
+//     cert:fs.readFileSync('fullchain.pem'),
+//     key:fs.readFileSync('privkey.pem')
+// }
 
 class Server extends EventEmitter {
     constructor(config) {
         super();
         EventEmitter.call(this);
-        this.server = HttpsServer.createServer(
+        this.server = http.createServer(
             // options,
         app).listen(config.port)
         this.wss = new WebSocket.Server({

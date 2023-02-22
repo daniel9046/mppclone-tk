@@ -1417,6 +1417,14 @@ $(function () {
   // Show moderator buttons
   (function () {
     gClient.on("hi", function (msg) {
+      if(msg.motd) {
+        var motd_notif = new Notification({
+          title: 'Welcome to MPPClone.tk',
+          html: msg.motd,
+          target: '#piano',
+          duration: 1500
+        });
+      }
       if (gClient.user.rank == "admin") {
         $("#clearchat-btn").show();
         $("#vanish-btn").show();
