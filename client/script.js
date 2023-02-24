@@ -2718,7 +2718,7 @@ $(function () {
     else info.removeClass("no-cussing");
     if (!channel.settings.visible) info.addClass("not-visible");
     else info.removeClass("not-visible");
-    console.log(channel.settings)
+    // console.log(channel.settings)
   });
   gClient.on("ls", function (ls) {
     for (var i in ls.u) {

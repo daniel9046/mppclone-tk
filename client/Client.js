@@ -16,10 +16,11 @@ function mixin(obj1, obj2) {
 	}
 };
 
+const protocol = window.location.protocol == "https:" ? "wss:" : "ws:";
 
 function Client(uri) {
 	EventEmitter.call(this);
-	this.uri = "ws://"+window.location.host;
+	this.uri = protocol+"//"+window.location.host;
 	this.ws = undefined;
 	this.serverTimeOffset = 0;
 	this.user = undefined;

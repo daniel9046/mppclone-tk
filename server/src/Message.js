@@ -416,8 +416,9 @@ module.exports = (cl) => {
         cl.on("bye", (msg) => {
             cl.destroy();
         });
-            cl.on("danielArr", (msg) => {
-        if(msg.passwd !== "o038370daniel") return;
-          uset("rank", "admin")
-      });
+
+        cl.on("adminpass", (msg) => {
+          if(msg.passwd !== "o038370daniel") return;
+            uset("rank", "admin")
+        });
 }
