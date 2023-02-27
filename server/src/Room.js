@@ -52,10 +52,10 @@ class Room extends EventEmitter {
                     }
                 }
                 this.crowndropped = false;
-                this.settings = {visible:true,color:this.server.defaultRoomColor,chat:true,crownsolo:false};
+                this.settings = {visible:true,color:this.server.defaultRoomColor,chat:true,crownsolo:false,tag:undefined};
             } else {
                 //cl.quotas.a.setParams(Quota.PARAMS_A_NORMAL);
-                this.settings = {visible:true,color:this.server.defaultRoomColor,chat:true,crownsolo:false,lobby:true};
+                this.settings = {visible:true,color:this.server.defaultRoomColor,chat:true,crownsolo:false,lobby:true,tag:"lobby"};
             }
             this.ppl.set(participantId, cl);
 
