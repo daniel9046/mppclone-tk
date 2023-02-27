@@ -1,0 +1,343 @@
+[
+  {
+    "m": "a",
+    "a": "qhelp",
+    "p": {
+      "name": "Anonymous",
+      "color": "#5159e6",
+      "id": "ff7f5be31ebbfc785c0295bb",
+      "_id": "9f94ddc32a4a19c43a654f9a0e126387"
+    },
+    "t": 1677252916122
+  },
+  {
+    "m": "a",
+    "a": "Usage: qhelp <Command Alias or Category*> *Optional | Categories: 🌐 info, 🧶 fun, ➕ unit, 💰 economy and 📺 media | Example: qhelp info",
+    "p": {
+      "name": "Anonymous",
+      "color": "#396709",
+      "id": "07cdbe8660918fde3fae1000",
+      "_id": "4f5b370756fa44dc14fae6db72f28f35"
+    },
+    "t": 1677252916302
+  },
+  {
+    "m": "a",
+    "a": "qbuffer",
+    "p": {
+      "name": "Anonymous",
+      "color": "#5159e6",
+      "id": "ff7f5be31ebbfc785c0295bb",
+      "_id": "9f94ddc32a4a19c43a654f9a0e126387"
+    },
+    "t": 1677252917899
+  },
+  {
+    "m": "a",
+    "a": "Chat buffer cleared.",
+    "p": {
+      "name": "Anonymous",
+      "color": "#396709",
+      "id": "07cdbe8660918fde3fae1000",
+      "_id": "4f5b370756fa44dc14fae6db72f28f35"
+    },
+    "t": 1677252918063
+  },
+  {
+    "m": "a",
+    "a": "qwho",
+    "p": {
+      "name": "Anonymous",
+      "color": "#6e9dca",
+      "id": "28cf9651e4af9af8d709660e",
+      "_id": "b9cb477ccb7405dcbafbc193aa51f7a6"
+    },
+    "t": 1677252939383
+  },
+  {
+    "m": "a",
+    "a": "👤 Information about Anonymous: Permanent Identifier: b9cb477ccb7405dcbafbc193aa51f7a6 | Temporary Identifier: 28cf9651e4af9af8d709660e | Qhy ID: MPPCTK-b9cb477ccb7405dcbafbc193aa51f7a6 | Color: Unknown  (Hex: #6e9dca) (RGB: 110, 157, 202) (HSL: 209.35, 46.46%, 61.18%) | Rank: User (1) | Cursor Position: 28.16 - 99.40 | Reputation: 😐 0",
+    "p": {
+      "name": "Anonymous",
+      "color": "#396709",
+      "id": "07cdbe8660918fde3fae1000",
+      "_id": "4f5b370756fa44dc14fae6db72f28f35"
+    },
+    "t": 1677252939559
+  },
+  {
+    "m": "a",
+    "a": "?dialy",
+    "p": {
+      "name": "🔪🩸𝕺𝖇𝖘𝖈𝖚𝖗𝖎𝖙𝖊💉💀͏",
+      "color": "#550202",
+      "id": "ebd595722675cca4ca91abde",
+      "_id": "7a4abeb5aedabd215d70c3876d77b47f"
+    },
+    "t": 1677252940934
+  },
+  {
+    "m": "a",
+    "a": "qd",
+    "p": {
+      "name": "🔪🩸𝕺𝖇𝖘𝖈𝖚𝖗𝖎𝖙𝖊💉💀͏",
+      "color": "#550202",
+      "id": "ebd595722675cca4ca91abde",
+      "_id": "7a4abeb5aedabd215d70c3876d77b47f"
+    },
+    "t": 1677252944060
+  },
+  {
+    "m": "a",
+    "a": "✅ 🔪🩸𝕺𝖇𝖘𝖈𝖚𝖗𝖎𝖙𝖊💉💀͏, you received 481.14 Q$.",
+    "p": {
+      "name": "Anonymous",
+      "color": "#396709",
+      "id": "07cdbe8660918fde3fae1000",
+      "_id": "4f5b370756fa44dc14fae6db72f28f35"
+    },
+    "t": 1677252944261
+  },
+  {
+    "m": "a",
+    "a": "qhrly",
+    "p": {
+      "name": "🔪🩸𝕺𝖇𝖘𝖈𝖚𝖗𝖎𝖙𝖊💉💀͏",
+      "color": "#550202",
+      "id": "ebd595722675cca4ca91abde",
+      "_id": "7a4abeb5aedabd215d70c3876d77b47f"
+    },
+    "t": 1677252944963
+  },
+  {
+    "m": "a",
+    "a": "✅ 🔪🩸𝕺𝖇𝖘𝖈𝖚𝖗𝖎𝖙𝖊💉💀͏, you received 35.57 Q$.",
+    "p": {
+      "name": "Anonymous",
+      "color": "#396709",
+      "id": "07cdbe8660918fde3fae1000",
+      "_id": "4f5b370756fa44dc14fae6db72f28f35"
+    },
+    "t": 1677252945166
+  },
+  {
+    "m": "a",
+    "a": "qweek",
+    "p": {
+      "name": "🔪🩸𝕺𝖇𝖘𝖈𝖚𝖗𝖎𝖙𝖊💉💀͏",
+      "color": "#550202",
+      "id": "ebd595722675cca4ca91abde",
+      "_id": "7a4abeb5aedabd215d70c3876d77b47f"
+    },
+    "t": 1677252945588
+  },
+  {
+    "m": "a",
+    "a": "✅ 🔪🩸𝕺𝖇𝖘𝖈𝖚𝖗𝖎𝖙𝖊💉💀͏, you received 741.10 Q$.",
+    "p": {
+      "name": "Anonymous",
+      "color": "#396709",
+      "id": "07cdbe8660918fde3fae1000",
+      "_id": "4f5b370756fa44dc14fae6db72f28f35"
+    },
+    "t": 1677252945766
+  },
+  {
+    "m": "a",
+    "a": "OBSCURITE",
+    "p": {
+      "name": "Anonymous",
+      "color": "#5159e6",
+      "id": "ff7f5be31ebbfc785c0295bb",
+      "_id": "9f94ddc32a4a19c43a654f9a0e126387"
+    },
+    "t": 1677252951885
+  },
+  {
+    "m": "a",
+    "a": "wow",
+    "p": {
+      "name": "Anonymous",
+      "color": "#e31060",
+      "id": "807fd5527caf0c26958c5e5e",
+      "_id": "b45256b0caec57efa3d59c30cd4c615c"
+    },
+    "t": 1677252969038
+  },
+  {
+    "m": "a",
+    "a": "?who",
+    "p": {
+      "name": "Anonymous",
+      "color": "#5159e6",
+      "id": "ff7f5be31ebbfc785c0295bb",
+      "_id": "9f94ddc32a4a19c43a654f9a0e126387"
+    },
+    "t": 1677253026750
+  },
+  {
+    "m": "a",
+    "a": "Username: Anonymous | Cursor: (30.77, 34.37) | ID: 9f94ddc32a4a19c43a654f9a0e126387 | Database ID: MPPTK-9f94ddc32a4a19c43a654f9a0e126387 | Color: #5159e6 (Dark Soft Violet) | Balance: 0Z$ | Reputation: 0 | Rank: None  | Room rank: None | Description: None",
+    "p": {
+      "name": "Zeitgeist (v4) [?] 🔥",
+      "color": "#FCA510",
+      "id": "c5324f345be1f50012cf510a",
+      "_id": "cb06addfededde384b5b9fa5b60edb2a"
+    },
+    "t": 1677253026919
+  },
+  {
+    "m": "a",
+    "a": "ok",
+    "p": {
+      "name": "Anonymous",
+      "color": "#6e9dca",
+      "id": "2120da5e9d0555495450bd56",
+      "_id": "b9cb477ccb7405dcbafbc193aa51f7a6"
+    },
+    "t": 1677253052108
+  },
+  {
+    "m": "a",
+    "a": "add it to dev room",
+    "p": {
+      "name": "Anonymous",
+      "color": "#6e9dca",
+      "id": "2120da5e9d0555495450bd56",
+      "_id": "b9cb477ccb7405dcbafbc193aa51f7a6"
+    },
+    "t": 1677253056624
+  },
+  {
+    "m": "a",
+    "a": "ok",
+    "p": {
+      "name": "Anonymous",
+      "color": "#5159e6",
+      "id": "97950a85edaa732ae9440325",
+      "_id": "9f94ddc32a4a19c43a654f9a0e126387"
+    },
+    "t": 1677253056823
+  },
+  {
+    "m": "a",
+    "a": "go crazy",
+    "p": {
+      "name": "Anonymous",
+      "color": "#5159e6",
+      "id": "97950a85edaa732ae9440325",
+      "_id": "9f94ddc32a4a19c43a654f9a0e126387"
+    },
+    "t": 1677253057827
+  },
+  {
+    "m": "a",
+    "a": "nice",
+    "p": {
+      "name": "paperluigis",
+      "color": "#44aa66",
+      "id": "b18572699d7b4844e4b786f5",
+      "_id": "b45256b0caec57efa3d59c30cd4c615c"
+    },
+    "t": 1677253076489
+  },
+  {
+    "m": "a",
+    "a": "time to add the jukebox here too",
+    "p": {
+      "name": "paperluigis",
+      "color": "#44aa66",
+      "id": "b18572699d7b4844e4b786f5",
+      "_id": "b45256b0caec57efa3d59c30cd4c615c"
+    },
+    "t": 1677253086864
+  },
+  {
+    "m": "a",
+    "a": "qdiscord",
+    "p": {
+      "name": "Anonymous",
+      "color": "#6a187b",
+      "id": "130b0a41c2a055f3481f7a9c",
+      "_id": "9f5502201ad63903e6fe14332a23be74"
+    },
+    "t": 1677370832148
+  },
+  {
+    "m": "a",
+    "a": "qi",
+    "p": {
+      "name": "Anonymous",
+      "color": "#f57f43",
+      "id": "38d4a39966041aefb9227d44",
+      "_id": "3d88249274f807bb955141d335405510"
+    },
+    "t": 1677422928482
+  },
+  {
+    "m": "a",
+    "a": "Your permanent identifier is 3d88249274f807bb955141d335405510",
+    "p": {
+      "name": "Qhy ｢ qhelp ｣",
+      "color": "#ffd700",
+      "id": "ff21df2263684004f36d7987",
+      "_id": "4f5b370756fa44dc14fae6db72f28f35"
+    },
+    "t": 1677422928677
+  },
+  {
+    "m": "a",
+    "a": "too long _id",
+    "p": {
+      "name": "Anonymous",
+      "color": "#f57f43",
+      "id": "38d4a39966041aefb9227d44",
+      "_id": "3d88249274f807bb955141d335405510"
+    },
+    "t": 1677422946554
+  },
+  {
+    "m": "a",
+    "a": "Sus",
+    "p": {
+      "name": "duckbot [.help]",
+      "color": "#44aa66",
+      "id": "521ab31647f1820a4f3be474",
+      "_id": "b45256b0caec57efa3d59c30cd4c615c"
+    },
+    "t": 1677469262870
+  },
+  {
+    "m": "a",
+    "a": "<@768752535430627348>",
+    "p": {
+      "name": "duckbot [.help]",
+      "color": "#44aa66",
+      "id": "521ab31647f1820a4f3be474",
+      "_id": "b45256b0caec57efa3d59c30cd4c615c"
+    },
+    "t": 1677469286742
+  },
+  {
+    "m": "a",
+    "a": "qwho ze",
+    "p": {
+      "name": "Anonymous",
+      "color": "#c5147e",
+      "id": "2127e099d31c2c944a176c91",
+      "_id": "a1da6956a18d41514e761def4d9d1c18"
+    },
+    "t": 1677484466071
+  },
+  {
+    "m": "a",
+    "a": "👤 Information about Zeitgeist [?] 🔥: Permanent Identifier: cb06addfededde384b5b9fa5b60edb2a | Temporary Identifier: 477658217971f0603ed8b77e | Qhy ID: MPPCTK-cb06addfededde384b5b9fa5b60edb2a | Color: Unknown (Hex: #fca510) (RGB: 252, 165, 16) (HSL: 37.88, 97.52%, 52.55%) | Rank: User (1) | Cursor Position: 38.75 - 21.24 | Reputation: 😐 0",
+    "p": {
+      "name": "Qhy ｢ qhelp ｣",
+      "color": "#ffd700",
+      "id": "ff21df2263684004f36d7987",
+      "_id": "4f5b370756fa44dc14fae6db72f28f35"
+    },
+    "t": 1677484466270
+  }
+]

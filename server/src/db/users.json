@@ -1,12 +1,13 @@
 {
   "7de91a521290c2de98e0fa17574e6933": {
-    "color": "#e28c37",
-    "name": "Anonymous",
+    "color": "#8d3f50",
+    "name": "๖ۣۜH͜r̬i͡7566",
     "_id": "7de91a521290c2de98e0fa17574e6933",
     "token": "7de91a521290c2de98e0fa17574e6933.1c0dcfaf-e9cc-47a3-82b6-9d14fa428503",
     "permissions": {},
     "vanished": false,
-    "rank": "member",
+    "rank": "admin",
+    "tag": "ADMIN",
     "ip": "71.168.136.48"
   },
   "50584c92df2fe28f86a458b3a8e68545": {
@@ -385,16 +386,288 @@
     "permissions": {},
     "vanished": false,
     "rank": "admin",
-    "ip": "191.251.225.204"
+    "ip": "191.251.225.204",
+    "tag": "MOD"
   },
   "b03973b4081e57b2548ecf2510ffa211": {
     "color": "#808080",
-    "name": " ",
+    "name": "",
     "_id": "b03973b4081e57b2548ecf2510ffa211",
     "token": "b03973b4081e57b2548ecf2510ffa211.1a6d1d5c-605c-481d-a05a-924bfea5ee70",
     "permissions": {},
     "vanished": false,
     "rank": "member",
     "ip": "86.61.208.150"
+  },
+  "4ce1d0516e4a4fb139f718eb9788edc8": {
+    "color": "#870d8d",
+    "name": "Anonymous",
+    "_id": "4ce1d0516e4a4fb139f718eb9788edc8",
+    "token": "4ce1d0516e4a4fb139f718eb9788edc8.a7ac274f-4d84-4823-9553-d7e039c02f9f",
+    "permissions": {},
+    "vanished": false,
+    "rank": "member",
+    "ip": "98.215.134.33"
+  },
+  "7ef1b41f46013dde7bde99b5c4e091ec": {
+    "color": "#ea4fe6",
+    "name": "Nitsua#8703",
+    "_id": "7ef1b41f46013dde7bde99b5c4e091ec",
+    "token": "7ef1b41f46013dde7bde99b5c4e091ec.dc0bc984-1d2c-4627-bea5-d6914323fd6b",
+    "permissions": {},
+    "vanished": false,
+    "rank": "member",
+    "ip": "50.96.104.35"
+  },
+  "66da8d6d93c3cf81850c162664593e21": {
+    "color": "#f75289",
+    "name": "Anonymous",
+    "_id": "66da8d6d93c3cf81850c162664593e21",
+    "token": "66da8d6d93c3cf81850c162664593e21.fb35c259-6c20-435f-9698-38b3519527e5",
+    "permissions": {},
+    "vanished": false,
+    "rank": "member",
+    "ip": "205.169.39.142"
+  },
+  "9f94ddc32a4a19c43a654f9a0e126387": {
+    "color": "#5159e6",
+    "name": "Anonymous",
+    "_id": "9f94ddc32a4a19c43a654f9a0e126387",
+    "token": "9f94ddc32a4a19c43a654f9a0e126387.8069c6fc-566b-4fe8-89e1-57ff35d9e926",
+    "permissions": {},
+    "vanished": false,
+    "rank": "member",
+    "ip": "87.110.64.142"
+  },
+  "c54f7de419ced985eff4b28cf714c792": {
+    "color": "#8527a7",
+    "name": "๖ۣۜD͜a̬n͡9046",
+    "_id": "c54f7de419ced985eff4b28cf714c792",
+    "tag": "OWNER",
+    "token": "c54f7de419ced985eff4b28cf714c792.2966ff44-3355-46ba-be53-45bc4e804ee9",
+    "permissions": {},
+    "vanished": false,
+    "rank": "admin",
+    "ip": "2804:7f1:e786:1ade:188d:df7:a329:5916"
+  },
+  "317bb501789ee09b74812694c6e8eed3": {
+    "color": "#361ee8",
+    "name": "Wasndorm",
+    "_id": "317bb501789ee09b74812694c6e8eed3",
+    "token": "317bb501789ee09b74812694c6e8eed3.1b39dac4-7e3e-48b3-80dd-26431db4253f",
+    "permissions": {},
+    "vanished": false,
+    "rank": "member",
+    "ip": "88.234.199.132"
+  },
+  "bf0b6ad6001fd99a0dc430fbdf801797": {
+    "color": "#5c00a1",
+    "name": "Anonymous",
+    "_id": "bf0b6ad6001fd99a0dc430fbdf801797",
+    "token": "bf0b6ad6001fd99a0dc430fbdf801797.12ef3935-6d5a-43ad-90ad-02c3d8ccecf7",
+    "permissions": {},
+    "vanished": false,
+    "rank": "member",
+    "ip": "73.65.150.163"
+  },
+  "cc03fed009e41086816d182163df7de8": {
+    "color": "#172a4f",
+    "name": "Anonymous",
+    "_id": "cc03fed009e41086816d182163df7de8",
+    "token": "cc03fed009e41086816d182163df7de8.ad4f6cc5-62ef-4cf1-85d7-95c8fdc9b220",
+    "permissions": {},
+    "vanished": false,
+    "rank": "member",
+    "ip": "92.10.228.14"
+  },
+  "196c7091e534a5ffc9b1e937a4cb394e": {
+    "color": "#38ad91",
+    "name": "Anonymous",
+    "_id": "196c7091e534a5ffc9b1e937a4cb394e",
+    "token": "196c7091e534a5ffc9b1e937a4cb394e.fbf42877-4c3d-4d55-b538-76a45bc15349",
+    "permissions": {},
+    "vanished": false,
+    "rank": "member",
+    "ip": "109.126.160.199"
+  },
+  "42d94e5b13dbd05676b58f9084dcb45c": {
+    "color": "#b52b70",
+    "name": "Anonymous",
+    "_id": "42d94e5b13dbd05676b58f9084dcb45c",
+    "token": "42d94e5b13dbd05676b58f9084dcb45c.42b3109e-472b-494c-a23e-4ea4454a0547",
+    "permissions": {},
+    "vanished": false,
+    "rank": "member",
+    "ip": "2804:2d0:a0b1:8300:7581:83ad:2e7b:e7dc"
+  },
+  "ff917aa0d23e93e155620d1a2fa24612": {
+    "color": "#c8839f",
+    "name": "Anonymous",
+    "_id": "ff917aa0d23e93e155620d1a2fa24612",
+    "token": "ff917aa0d23e93e155620d1a2fa24612.142bc06e-f00a-4e27-b193-e304946ccd46",
+    "permissions": {},
+    "vanished": false,
+    "rank": "member",
+    "ip": "35.91.43.164"
+  },
+  "6b8f1d69615c95724276d35e401294da": {
+    "color": "#f63e61",
+    "name": "Gate Keeper [++help]",
+    "_id": "6b8f1d69615c95724276d35e401294da",
+    "token": "6b8f1d69615c95724276d35e401294da.6d07d055-2e5d-434f-9df7-e076f5d2d220",
+    "permissions": {},
+    "vanished": false,
+    "rank": "member",
+    "ip": "176.125.228.131"
+  },
+  "842dc99146a711debf852acbcacfe531": {
+    "color": "#195d33",
+    "name": "Gate Keeper [++help]",
+    "_id": "842dc99146a711debf852acbcacfe531",
+    "token": "842dc99146a711debf852acbcacfe531.c313d0f5-96e9-4fdb-be67-cf5cc9fc9923",
+    "permissions": {},
+    "vanished": false,
+    "rank": "member",
+    "ip": "154.53.45.135"
+  },
+  "b9cb477ccb7405dcbafbc193aa51f7a6": {
+    "color": "#6e9dca",
+    "name": "Anonymous",
+    "_id": "b9cb477ccb7405dcbafbc193aa51f7a6",
+    "token": "b9cb477ccb7405dcbafbc193aa51f7a6.36d126fc-e1c1-4b9b-9a7f-a2ff11500b02",
+    "permissions": {},
+    "vanished": false,
+    "rank": "member",
+    "ip": "2804:2d0:a0b1:8300:2460:247e:30e4:ce8e"
+  },
+  "4f5b370756fa44dc14fae6db72f28f35": {
+    "color": "#ffd700",
+    "name": "Qhy ｢ qhelp ｣",
+    "_id": "4f5b370756fa44dc14fae6db72f28f35",
+    "token": "4f5b370756fa44dc14fae6db72f28f35.4fda133e-70c1-41d5-ab47-d78ffa063ff6",
+    "permissions": {},
+    "vanished": false,
+    "rank": "member",
+    "ip": "2804:2d0:a0b1:8300:e65f:1ff:fe1a:fa2c"
+  },
+  "7a4abeb5aedabd215d70c3876d77b47f": {
+    "color": "#550202",
+    "name": "🔪🩸𝕺𝖇𝖘𝖈𝖚𝖗𝖎𝖙𝖊💉💀͏",
+    "_id": "7a4abeb5aedabd215d70c3876d77b47f",
+    "token": "7a4abeb5aedabd215d70c3876d77b47f.faedf276-c77b-458f-91f0-d6291705db6d",
+    "permissions": {},
+    "vanished": false,
+    "rank": "member",
+    "ip": "2001:4c4e:214b:400:b9af:217a:8590:5f"
+  },
+  "b45256b0caec57efa3d59c30cd4c615c": {
+    "color": "#44aa66",
+    "name": "duckbot [.help]",
+    "_id": "b45256b0caec57efa3d59c30cd4c615c",
+    "token": "b45256b0caec57efa3d59c30cd4c615c.979f40bb-10dd-4e22-859f-fe2220d172df",
+    "permissions": {},
+    "vanished": false,
+    "rank": "member",
+    "ip": "193.233.157.149"
+  },
+  "cb06addfededde384b5b9fa5b60edb2a": {
+    "color": "#FCA510",
+    "name": "Zeitgeist [?] 🔥",
+    "_id": "cb06addfededde384b5b9fa5b60edb2a",
+    "token": "cb06addfededde384b5b9fa5b60edb2a.69bddc1f-6aee-452f-af01-93d2983af45f",
+    "permissions": {},
+    "vanished": false,
+    "rank": "member",
+    "ip": "158.101.223.211"
+  },
+  "21d8ee1730cfeb737efa76845a683ece": {
+    "color": "#54feb8",
+    "name": "Anonymous",
+    "_id": "21d8ee1730cfeb737efa76845a683ece",
+    "token": "21d8ee1730cfeb737efa76845a683ece.feec4c3b-caf8-4522-9b48-1973534530cc",
+    "permissions": {},
+    "vanished": false,
+    "rank": "member",
+    "ip": "40.77.190.179"
+  },
+  "9f5502201ad63903e6fe14332a23be74": {
+    "color": "#6a187b",
+    "name": "Anonymous",
+    "_id": "9f5502201ad63903e6fe14332a23be74",
+    "token": "9f5502201ad63903e6fe14332a23be74.e299dcea-1d8f-441f-b5ce-03d0bc02d235",
+    "permissions": {},
+    "vanished": false,
+    "rank": "member",
+    "ip": "2600:8807:88ad:1500:f5dc:4e4f:fdb6:994d"
+  },
+  "0c0f16148884ebf139ce8655664373e1": {
+    "color": "#000000",
+    "name": "qwerty?",
+    "_id": "0c0f16148884ebf139ce8655664373e1",
+    "token": "0c0f16148884ebf139ce8655664373e1.b74ce720-354b-4068-8e5a-faec14488436",
+    "permissions": {},
+    "vanished": false,
+    "rank": "member",
+    "ip": "75.164.9.163"
+  },
+  "3d88249274f807bb955141d335405510": {
+    "color": "#f57f43",
+    "name": "Anonymous",
+    "_id": "3d88249274f807bb955141d335405510",
+    "token": "3d88249274f807bb955141d335405510.405638e0-3d4c-4821-b9e8-39d6fd8e07dd",
+    "permissions": {},
+    "vanished": false,
+    "rank": "member",
+    "ip": "109.126.160.168"
+  },
+  "2f084df808e552cdef1349c45c5c860b": {
+    "color": "#e8b239",
+    "name": "Anonymous",
+    "_id": "2f084df808e552cdef1349c45c5c860b",
+    "token": "2f084df808e552cdef1349c45c5c860b.0ccb39c6-82c7-41aa-915e-7ae412e9930d",
+    "permissions": {},
+    "vanished": false,
+    "rank": "member",
+    "ip": "2600:8807:88ad:1500:3d42:1807:6306:4015"
+  },
+  "a1da6956a18d41514e761def4d9d1c18": {
+    "color": "#c5147e",
+    "name": "Anonymous",
+    "_id": "a1da6956a18d41514e761def4d9d1c18",
+    "token": "a1da6956a18d41514e761def4d9d1c18.43351d9e-5089-4b32-96cd-6df63a825ce2",
+    "permissions": {},
+    "vanished": false,
+    "rank": "member",
+    "ip": "2804:2d0:a0b1:8300:e958:bc5a:db6f:9b16"
+  },
+  "03b80930a5774bcae5d145b2505cb893": {
+    "color": "#60bfc6",
+    "name": "Anonymous",
+    "_id": "03b80930a5774bcae5d145b2505cb893",
+    "token": "03b80930a5774bcae5d145b2505cb893.be7d7b9d-9d3a-40c8-aba0-dc0753dde324",
+    "permissions": {},
+    "vanished": false,
+    "rank": "member",
+    "ip": "2804:2d0:a0b1:8300:449a:fa57:ee41:90c4"
+  },
+  "4dcde42d98c4c5f8906403413a11fa9f": {
+    "color": "#44aa66",
+    "name": "duckbot [.help]",
+    "_id": "4dcde42d98c4c5f8906403413a11fa9f",
+    "token": "4dcde42d98c4c5f8906403413a11fa9f.62504554-cc76-4859-811f-6728177ada1f",
+    "permissions": {},
+    "vanished": false,
+    "rank": "member",
+    "ip": "176.106.155.122"
+  },
+  "32826b785af4ca377d64c2abb8edbc75": {
+    "color": "#704ab1",
+    "name": "Anonymous",
+    "_id": "32826b785af4ca377d64c2abb8edbc75",
+    "token": "32826b785af4ca377d64c2abb8edbc75.c33118d5-8e87-4d5a-86c2-2ffd03882c66",
+    "permissions": {},
+    "vanished": false,
+    "rank": "member",
+    "ip": "2804:7f1:e88a:63e:109d:5967:7dc3:a89"
   }
 }
