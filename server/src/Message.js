@@ -108,7 +108,6 @@ module.exports = (cl) => {
     })
 
     cl.on("custom", (msg) => {
-        console.log(msg)
         if (!(cl.channel && cl.participantId)) return;
         if(!msg.data && !msg.target) return;
         cl.channel.sendArray([{

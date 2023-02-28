@@ -339,5 +339,137 @@
       "_id": "4f5b370756fa44dc14fae6db72f28f35"
     },
     "t": 1677484466270
+  },
+  {
+    "m": "a",
+    "a": "[Discord] Anonygold#9668: a",
+    "p": {
+      "name": "Zeitgeist [?] 🔥",
+      "color": "#FCA510",
+      "id": "623ffc128c507ea112bbb85b",
+      "_id": "cb06addfededde384b5b9fa5b60edb2a"
+    },
+    "t": 1677519461436
+  },
+  {
+    "m": "a",
+    "a": "?help",
+    "p": {
+      "name": "Zeitgeist [?] 🔥",
+      "color": "#FCA510",
+      "id": "623ffc128c507ea112bbb85b",
+      "_id": "cb06addfededde384b5b9fa5b60edb2a"
+    },
+    "t": 1677519462074
+  },
+  {
+    "m": "a",
+    "a": "system -> ?help, ?discord, ?rules, ?follow, ?buffer, ?eval, ?update, ?soft_restart, ?ping",
+    "p": {
+      "name": "Zeitgeist [?] 🔥",
+      "color": "#FCA510",
+      "id": "623ffc128c507ea112bbb85b",
+      "_id": "cb06addfededde384b5b9fa5b60edb2a"
+    },
+    "t": 1677519462841
+  },
+  {
+    "m": "a",
+    "a": "info -> ?balance, ?setdescription, ?about, ?rep-, ?who, ?seq, ?roominfo, ?donate, ?inventory, ?bluebird, ?contact, ?rep+",
+    "p": {
+      "name": "Zeitgeist [?] 🔥",
+      "color": "#FCA510",
+      "id": "158044a20416bdb18cc3fb02",
+      "_id": "cb06addfededde384b5b9fa5b60edb2a"
+    },
+    "t": 1677519485940
+  },
+  {
+    "m": "a",
+    "a": "fun -> ?fact, ?capy, ?breatheonnose, ?joke, ?kiss, ?hug, ?8ball, ?muhe, ?dog, ?cat, ?snowflake, ?explode",
+    "p": {
+      "name": "Zeitgeist [?] 🔥",
+      "color": "#FCA510",
+      "id": "158044a20416bdb18cc3fb02",
+      "_id": "cb06addfededde384b5b9fa5b60edb2a"
+    },
+    "t": 1677519486646
+  },
+  {
+    "m": "a",
+    "a": "moderation -> ?warn, ?pain, ?minonlinetime, ?crown, ?punishments, ?color, ?removepunishment, ?checkban, ?unban, ?togglechat, ?ban, ?crownsolo, ?modguide, ?color2, ?setrank",
+    "p": {
+      "name": "Zeitgeist [?] 🔥",
+      "color": "#FCA510",
+      "id": "158044a20416bdb18cc3fb02",
+      "_id": "cb06addfededde384b5b9fa5b60edb2a"
+    },
+    "t": 1677519487449
+  },
+  {
+    "m": "a",
+    "a": "[Discord] Anonygold#9668: test",
+    "p": {
+      "name": "Zeitgeist [?] 🔥",
+      "color": "#FCA510",
+      "id": "158044a20416bdb18cc3fb02",
+      "_id": "cb06addfededde384b5b9fa5b60edb2a"
+    },
+    "t": 1677519488046
+  },
+  {
+    "m": "a",
+    "a": "?help help",
+    "p": {
+      "name": "Zeitgeist [?] 🔥",
+      "color": "#FCA510",
+      "id": "158044a20416bdb18cc3fb02",
+      "_id": "cb06addfededde384b5b9fa5b60edb2a"
+    },
+    "t": 1677519488753
+  },
+  {
+    "m": "a",
+    "a": "-> help - An actual help command. (Aliases: h)",
+    "p": {
+      "name": "Zeitgeist [?] 🔥",
+      "color": "#FCA510",
+      "id": "158044a20416bdb18cc3fb02",
+      "_id": "cb06addfededde384b5b9fa5b60edb2a"
+    },
+    "t": 1677519489453
+  },
+  {
+    "m": "a",
+    "a": "[Discord] Anonygold#9668: test",
+    "p": {
+      "name": "Zeitgeist [?] 🔥",
+      "color": "#FCA510",
+      "id": "6387e1162027f83974f6dcf1",
+      "_id": "cb06addfededde384b5b9fa5b60edb2a"
+    },
+    "t": 1677519613854
+  },
+  {
+    "m": "a",
+    "a": "?fact",
+    "p": {
+      "name": "Zeitgeist [?] 🔥",
+      "color": "#FCA510",
+      "id": "6387e1162027f83974f6dcf1",
+      "_id": "cb06addfededde384b5b9fa5b60edb2a"
+    },
+    "t": 1677519614554
+  },
+  {
+    "m": "a",
+    "a": "-> If the electors of the Holy Roman Emperor did not vote within 30 days, they were only allowed to eat bread and water and forbidden to leave the city.",
+    "p": {
+      "name": "Zeitgeist [?] 🔥",
+      "color": "#FCA510",
+      "id": "6387e1162027f83974f6dcf1",
+      "_id": "cb06addfededde384b5b9fa5b60edb2a"
+    },
+    "t": 1677519615256
   }
 ]

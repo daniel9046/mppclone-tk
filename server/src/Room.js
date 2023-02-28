@@ -36,7 +36,7 @@ class Room extends EventEmitter {
             cl.user.id = participantId;
             cl.participantId = participantId;
             cl.initParticipantQuotas();
-            if (((this.connections.length == 0 && Array.from(this.ppl.values()).length == 0) && !this.isLobby(this._id)) || this.crown && (this.crown.userId == cl.user._id)) { //user that created the room, give them the crown.
+            if (((Array.from(this.ppl.values()).length == 0) && !this.isLobby(this._id)) || this.crown && (this.crown.userId == cl.user._id)) { //user that created the room, give them the crown.
                 //cl.quotas.a.setParams(Quota.PARAMS_A_CROWNED);
                 this.crown = {
                     participantId: cl.participantId,

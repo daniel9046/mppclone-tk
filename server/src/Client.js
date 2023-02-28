@@ -66,7 +66,7 @@ class Client extends EventEmitter {
     }
     sendArray(arr) {
         if (this.isConnected()) {
-            //console.log(`SEND: `, JSON.colorStringify(arr));
+            // if(arr.m !== "custom") console.log(`SEND: `, JSON.colorStringify(arr));
             this.ws.send(JSON.stringify(arr));
         }
     }
@@ -109,7 +109,7 @@ class Client extends EventEmitter {
                 for (let msg of transmission) {
                     if (!msg.hasOwnProperty("m")) return;
                     this.emit(msg.m, msg, !!admin);
-                    // console.log(`RECIEVE: `, JSON.colorStringify(msg));
+                    // if(msg.m !== "custom") console.log(`RECIEVE: `, JSON.colorStringify(msg));
                 }
             } catch (e) {
                 console.log(e)
