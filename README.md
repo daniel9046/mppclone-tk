@@ -1,4 +1,4 @@
-# mppclone-tk-server
+# mppclone-tk
 MPPCLONE.TK project - Community's Suggestions Realized in a Different Server
 
 ## To do
